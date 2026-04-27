@@ -19,7 +19,7 @@ An interactive 3D simulator for the UR5 6-DOF robotic arm, built with Python and
 ## Project Structure
 
 ```
-ur5sim/
+UR5-Robot/
 ├── simulate.py         # Entry point — run this
 ├── ur5_visualizer.py   # UR5Visualizer class (Matplotlib UI)
 ├── ur5_robot.py        # UR5Robot class (kinematics & motion planning)
@@ -45,7 +45,7 @@ pip3 install numpy matplotlib
 ## Usage
 
 ```bash
-cd ur5sim
+cd UR5-Robot
 python3 simulate.py
 ```
 
